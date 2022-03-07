@@ -318,6 +318,7 @@ a {
   border-radius: 189px;
   z-index: 0;
   transition: 0.8s;
+  box-shadow: 0px 0px 15px blue;
 }
 
 .header-image-circle-2 {
@@ -330,6 +331,7 @@ a {
   border-radius: 189px;
   z-index: 0;
   transition: 0.8s;
+  box-shadow: 0px 0px 15px blue;
 }
 
 
