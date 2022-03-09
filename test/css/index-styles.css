@@ -2028,6 +2028,7 @@ a {
 
 .fifth-index-name {
   position: relative;
+  margin: auto;
   margin-left: 100px;
   max-width: 500px;
   height: 250px;
@@ -2086,7 +2087,7 @@ a {
 
 .fifth-index-image {
   position: relative;
-  margin: 0px 30px 0px 30px;
+  margin: auto;
   width: 400px;
   height: 300px;
   top: -50px;
