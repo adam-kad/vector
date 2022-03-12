@@ -45,7 +45,7 @@ body {
     text-align: center;
     cursor: pointer;
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(0, 0, 0);
     width: 120px;
     height: 38px;
@@ -53,7 +53,7 @@ body {
     font-size: 25px;
     margin: 3px 3px;
     padding: 3px 3px 3px 30px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .menu-pc {
@@ -123,7 +123,7 @@ a {
     color: rgb(0, 0, 0);
     line-height: 35px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0 9px;
     padding: 8px;
     width: 70px;
@@ -659,7 +659,7 @@ a {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -1042,7 +1042,7 @@ a {
   position: relative;
   width: 100%;
   height: 750px;
-  background: #3375ec;
+  background: #1f67ec;
   background-size: cover;
   overflow: hidden;
 }
@@ -1626,7 +1626,6 @@ a {
   position: relative;
   width: 100%;
   height: 650px;
-  background: blue;
   background: url(../images/nout-fon.jpg);
   background-size: cover;
   background-position: center;
@@ -2230,7 +2229,7 @@ a {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #0026ff;
+  background: #1f67ec;
   overflow: hidden;
 }
 
