@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/index-styles.css" type="text/css">
-    <link rel="shortcut icon" href="images/Favicon/favicon-v.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Favicon/favicon.png" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <title>Vector</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>VecTor</title>
 </head>
 <body>
     <header class="header-top">
         <div class="header">
-            <div class="logo"><sp style="color: #0026ff;">V</sp>ector</div>
+            <div class="logo"><sp style="color: #0026ff;">V</sp>ecTor</div>
             <nav class="menu-pc">
                 <div class="block-1">
-                    <a class="dropbtn" href="#">Главная</a>
+                    <a class="dropbtn" href="index.html">Главная</a>
                 </div>
                 <div class="block-2">
-                    <a  class="dropbtn">Статьи</a>
+                    <a  class="dropbtn" href="base.html">Статьи</a>
                     <div class="dropdown-content">
                       <a href="#">Популярные</a>
                       <a href="#">Программирование</a>
@@ -43,10 +45,10 @@
                 <div class="menu-popup">
                     <a class="menu-close" href="#"></a>
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Статьи</a></li>		
-                        <li><a href="#">Проекты</a></li>
-                        <li><a href="#">О нас</a></li>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="base.html">Статьи</a></li>		
+                        <li><a href="#it">Проекты</a></li>
+                        <li><a href="#toph">О нас</a></li>
                     </ul>						
                 </div>
             </div>
@@ -78,15 +80,46 @@
 
     
     <main class="main">
+        <section class="second-index-all" id="toph">
+
+            <div class="second-index-stand">
+                <div class="second-index-stand-under">
+
+                    <div class="second-index-stand-image" 
+                         data-aos="fade-up"></div>
+
+                    <div class="second-index-stand-image-screen"
+                         data-aos="fade-up"></div>
+
+                    <div class="second-index-stand-content"
+                         data-aos="fade-up">
+                        
+                        <div class="sis-content-about">ABOUT BUSINET</div>
+                        <div class="sis-content-name-top">Несколько Слов О Нас</div>
+                        <div class="sis-content-name-under">Наш блог является относительно молодым проектом, но вопреки этому вы можете у нас найти статьи про:</div>
+                        <div class="sis-content-list">
+                            <p> &#10625;  Программирование на разных ЯП</p>
+                            <p> &#10625;  Обзоры на интересные проекты</p>
+                            <p> &#10625;  Заработок в интернете</p>
+                        </div>
+                        <a class="sis-content-link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="first-index-all" id="it">
             <div class="first-index-stand">
 
-                <div class="first-index-stand-name">
+                <div class="first-index-stand-name"
+                     data-aos="fade-up">
                     <div class="fis-name-top">Вам могут понравиться</div>
                     <div class="fis-name-under">Наши проекты</div>
                 </div>
 
-                <div class="first-index-stand-content">
+                <div class="first-index-stand-content"
+                     data-aos="fade-up">
+
                     <a class="fis-block-1" href="#">
                         <div class="fis-image-1"></div>
                         <div class="fis-block-1-name">Айтишник</div>
@@ -104,37 +137,44 @@
                     </a>
                 </div>
 
-                <a class="first-index-stand-link" href="">Другие наши проекты &#129106;</a>
+                <a class="first-index-stand-link" href=""
+                   data-aos="fade-up">Другие наши проекты &#129106;</a>
 
             </div>
         </section>
 
-        
+        <section class="fifth-index-all">
+            <div class="fifth-index-stand">
 
-        <section class="second-index-all" id="toph">
-            <div class="second-index-stand">
-                <div class="second-index-stand-under">
-                    <div class="second-index-stand-image"></div>
-                    <div class="second-index-stand-image-screen"></div>
-                    <div class="second-index-stand-content">
-                        <div class="sis-content-about">ABOUT BUSINET</div>
-                        <div class="sis-content-name-top">Несколько Слов О Нас</div>
-                        <div class="sis-content-name-under">Наш блог является относительно молодым проектом, но вопреки этому вы можете у нас найти статьи про:</div>
-                        <div class="sis-content-list">
-                            <p> &#10625;  Программирование на разных ЯП</p>
-                            <p> &#10625;  Обзоры на интересные проекты</p>
-                            <p> &#10625;  Заработок в интернете</p>
-                        </div>
-                        <a class="sis-content-link">Подробнее</a>
+                <div class="fifth-index-name"
+                     data-aos="fade-up">
+                    <div class="fin-name">Мы В Сетях</div>
+                    <div class="fin-content">
+                        <a class="fin-block block-1" href=""></a>
+                        <a class="fin-block block-2" href=""></a>
+                        <a class="fin-block block-3" href=""></a>
                     </div>
+                </div>
+
+                <div class="fifth-index-image"
+                     data-aos="fade-up">
+                    <img class="fifth-image-img" src="images/Index-IMG/Main/homyak-fifth-img.png">
+                    <div class="fifth-image-circle-1"></div>
+                    <div class="fifth-image-circle-2"></div>
                 </div>
             </div>
         </section>
+       
 
         <section class="third-index-all">
             <div class="third-index-stand">
-                <div class="third-index-stand-name">О НАС В ЦИФРАХ</div>
-                <div class="third-index-stand-content">
+
+                <div class="third-index-stand-name"
+                     data-aos="fade-up">О НАС В ЦИФРАХ</div>
+
+                <div class="third-index-stand-content"
+                     data-aos="fade-up">
+
                     <div class="tis-block block-1">
                         <div id="out-1" class="tis-block-number number-1">4</div>
                         <div class="tis-block-name name-1">NUMBER OF PROJECTS</div>
@@ -155,11 +195,12 @@
             </div>
         </section>
         <script src="js/number.js"></script>
-        
+
 
         <section class="fourth-index-all">
             <div class="fourth-index-stand">
-                <div class="fourth-index-stand-content">
+                <div class="fourth-index-stand-content"
+                     data-aos="fade-up">
                     <div class="fois-content-about">WHAT WE WORK ON</div>
                     <div class="fois-content-name-top">Над Чем Мы Работаем</div>
                     <div class="fois-content-name-under">Мы занимаемся разработкой сайтов и приложений под разные цели, а также ведем свой свой блог про программирование и заработок в интернете</div>
@@ -167,7 +208,10 @@
                 </div>
             </div>
         </section>
+        
+        <script> AOS.init(); </script>
     </main>
+    
 
 
 
