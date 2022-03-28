@@ -1,2 +1,2 @@
 # vector
-Первый проект. Блог
+First project. Personal blog
